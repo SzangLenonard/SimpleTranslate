@@ -1,0 +1,16 @@
+[
+	{
+		"id": "tools",
+		"children":
+		[
+			{
+				"id": "T",
+				"caption": "Translate",
+				"children":
+				[
+					{ "caption": "Transalte to English", "command": "translate"},
+				]
+			}
+		]
+	}
+]
