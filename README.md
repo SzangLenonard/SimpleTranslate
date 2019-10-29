@@ -5,7 +5,8 @@ This plugin use free API url:
 And just a **test version** and just use on *Window Os*.
 
 # Install
-```cd sublime3\Data\Packages\User
+```
+cd sublime3\Data\Packages\User
 git clone https://github.com/SzangLenonard/SimpleTranslate
 ```
 Then restart your ST3paragraph .
