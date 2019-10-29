@@ -1,16 +1,44 @@
 [
-	{
-		"id": "tools",
-		"children":
-		[
-			{
-				"id": "T",
-				"caption": "Translate",
-				"children":
-				[
-					{ "caption": "Transalte to English", "command": "translate"},
-				]
-			}
-		]
-	}
-]
+{
+    "id": "tools",
+    "children": [
+    {
+        "id": "T",
+        "caption": "Translate",
+        "children": [
+        {
+            "caption": "Transalte to English",
+            "command": "translate"
+        }, ]
+    }]
+},
+{
+    "id": "preferences",
+    "children": [
+    {
+        "id": "package-settings",
+        "children": [
+        {
+            "caption": "Translate",
+            "children": [
+            	{
+                    "caption": "Settings- User",
+                    "command": "open_file",
+                    "args":
+                    {
+                        "file": "${packages}/User/Translate/Translate.sublime-settings"
+                    }
+                },
+                {
+                    "caption": "Keyboard Shortcut- User",
+                    "command": "open_file",
+                    "args":
+                    {
+                        "file": "${packages}/User/Translate/Default (Windows).sublime-keymap"
+                    }
+                }
+
+            ]
+        }]
+    }]
+}]
