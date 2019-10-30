@@ -2,7 +2,7 @@ This plugin use free API url:
 
 `https://translate.googleapis.com/translate_a/single?client=gtx&sl={SOURCE_LANG}&tl={TARGET_LANG}&dt=t&q={TEXT_NEED_TRANSLATE}`
 
-And just a **test version** and just use on *Window Os*.
+It's a **test version** and just use on *Window Os*.
 
 # Install
 ```
